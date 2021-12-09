@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ff40ef3d82.js" crossorigin="anonymous"></script>
+    <title>Socials design</title>
+    <style>
+        body {
+            background: #161623;
+        }
+        
+        .social {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        
+        .card {
+            z-index: 1;
+            color: #111;
+            margin: 20px;
+            height: 100px;
+            width: 100px;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #fff;
+            transition: 0.2s linear;
+            font-size: 2rem;
+        }
+        
+        .card:hover {
+            transform: translateY(-20px);
+        }
+        
+        .hl {
+            z-index: -1;
+            position: absolute;
+            border-bottom: 10px solid #fff;
+            width: 100%;
+            top: 52%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="hl"></div>
+
+    <div class="social">
+        <a href="https://instagram.com/utkarshcodes/" target="_blank">
+            <div class="card">
+                <i class="fab fa-instagram"></i>
+            </div>
+        </a>
+        <a href="">
+            <div class="card">
+                <i class="fab fa-twitter"></i>
+            </div>
+        </a>
+        <a href="">
+            <div class="card">
+                <i class="fab fa-youtube"></i>
+            </div>
+        </a>
+        <a href="">
+            <div class="card">
+                <i class="fab fa-whatsapp"></i>
+            </div>
+        </a>
+    </div>
+</body>
+
+</html>
